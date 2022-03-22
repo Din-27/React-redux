@@ -1,0 +1,14 @@
+{
+    "Kontak": [
+    {
+        "id": 1, 
+        "name": "herdin", 
+        "phone": "12345678" 
+    },
+    {
+        "id": 2, 
+        "name": "agung", 
+        "phone": "0883478237" 
+    }
+    ]
+  }
