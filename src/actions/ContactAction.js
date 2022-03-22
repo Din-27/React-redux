@@ -24,7 +24,7 @@ export const getListContact = () =>{
                 type: GET_LIST_CONTACT,
                 payload : {
                     loading: false,
-                    data: res.data,
+                    data: response.data,
                     errorMessage : false
                 }
             })
