@@ -1,6 +1,6 @@
 import ListContact from './ListContact'
 
-export 
+export
 { 
     ListContact 
 } 

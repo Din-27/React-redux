@@ -1,7 +1,5 @@
-import { useState } from 'react';
 import './App.css';
-import ListContact from './components/ListContact';
-
+import { ListContact } from './components';
 
 function App() {
 
