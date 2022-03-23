@@ -1,6 +1,8 @@
 import ListContact from './ListContact'
+import AddContact from './AddContact'
 
 export
 { 
-    ListContact 
+    ListContact,
+    AddContact
 } 

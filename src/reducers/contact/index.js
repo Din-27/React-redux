@@ -1,9 +1,13 @@
-import { GET_LIST_CONTACT } from "../../actions/ContactAction"
+import { GET_LIST_CONTACT, ADD_CONTACT } from "../../actions/ContactAction"
 
 const initialState = {
     getListContactResult : false,
     getListContactLoading : false,
-    getListContactError : false
+    getListContactError : false,
+
+    addContactResult : false,
+    addContactLoading : false,
+    addContactError : false
 }
 
 const contact = (state = initialState, action) => {
@@ -14,6 +18,13 @@ const contact = (state = initialState, action) => {
                 getListContactResult: action.payload.data,
                 getListContactLoading : action.payload.loading,
                 getListContactError : action.payload.errorMessage
+            }
+        case ADD_CONTACT:
+            return {
+                ...state,
+                addContactResult: action.payload.data,
+                addContactLoading : action.payload.loading,
+                addContactError : action.payload.errorMessage
             }
         default:
             return state

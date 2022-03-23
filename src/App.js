@@ -1,12 +1,15 @@
-import './App.css';
-import { ListContact } from './components';
+import { AddContact, ListContact } from './components';
 
 function App() {
 
   return (
-    <div className='App'>
+    <div style={{padding: '50px'}}>
       App Contact
+      <hr />
       <ListContact/>
+      <hr />
+      <AddContact/>
+      <hr />
     </div>
   );
 }
