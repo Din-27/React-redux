@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div style={{padding: '50px'}}>
-      App Contact
+      <h2>App Contact</h2>
       <hr />
       <ListContact/>
       <hr />
